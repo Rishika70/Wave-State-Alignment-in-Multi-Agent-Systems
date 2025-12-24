@@ -70,16 +70,7 @@ the right project.
 
 ## Conceptual Model
 
-Each agent \( A_i \) is represented as:
-
-\[
-A_i = (\lambda_i,\ \phi_i(t),\ \omega_i(t))
-\]
-
-Where:
-- \( \lambda_i \) — cognitive wavelength (abstraction scale)
-- \( \phi_i(t) \) — phase (internal timing)
-- \( \omega_i(t) \) — frequency of contextual awareness
+frequency of contextual awareness
 
 Agents act **only at phase-lock events**.
 
@@ -111,9 +102,6 @@ It is a **high-perturbation intensity condition** within the same schema.
 
 Perturbation is defined as cumulative phase displacement:
 
-\[
-P(t) = \sum_i |\Delta \phi_i(t)|
-\]
 
 Behavioral regimes:
 - Low perturbation → coherence preserved
@@ -124,6 +112,4 @@ Reorganization redistributes phase relations and coupling strengths, producing a
 new equilibrium that preserves heterogeneity.
 
 ---
-│
-└── notes/
-    └── theory.md         # Theory notes and extensions
+
